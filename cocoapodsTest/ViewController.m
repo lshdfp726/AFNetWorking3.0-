@@ -25,7 +25,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     //上传过程
     [self AFNetWorkingTest];
-    //添加测试feafasfasdfsdfasfasdfasdfafdfa
+    //添加测试
 //    [self Manory];
 
 }
