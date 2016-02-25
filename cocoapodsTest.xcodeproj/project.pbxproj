@@ -16,6 +16,7 @@
 		ACBFD05F1C7565B000598ED5 /* cocoapodsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBFD05E1C7565B000598ED5 /* cocoapodsTestTests.m */; };
 		ACBFD06A1C7565B000598ED5 /* cocoapodsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBFD0691C7565B000598ED5 /* cocoapodsTestUITests.m */; };
 		ACBFD0781C75C5DD00598ED5 /* IMG_2187.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACBFD0771C75C5DD00598ED5 /* IMG_2187.jpg */; };
+		ACD90E531C7F00CE006BB74A /* FmdatabaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD90E521C7F00CE006BB74A /* FmdatabaseModel.m */; };
 		AFE2A571D8E4E4A5F8DB1EF3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2A7086DA56E7C444154AD7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,8 @@
 		ACBFD0691C7565B000598ED5 /* cocoapodsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoapodsTestUITests.m; sourceTree = "<group>"; };
 		ACBFD06B1C7565B000598ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACBFD0771C75C5DD00598ED5 /* IMG_2187.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2187.jpg; sourceTree = "<group>"; };
+		ACD90E511C7F00CE006BB74A /* FmdatabaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmdatabaseModel.h; sourceTree = "<group>"; };
+		ACD90E521C7F00CE006BB74A /* FmdatabaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FmdatabaseModel.m; sourceTree = "<group>"; };
 		DB3DA4D48FC0F91278B1A4FE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +139,8 @@
 				ACBFD0521C7565B000598ED5 /* LaunchScreen.storyboard */,
 				ACBFD0551C7565B000598ED5 /* Info.plist */,
 				ACBFD0441C7565B000598ED5 /* Supporting Files */,
+				ACD90E511C7F00CE006BB74A /* FmdatabaseModel.h */,
+				ACD90E521C7F00CE006BB74A /* FmdatabaseModel.m */,
 			);
 			path = cocoapodsTest;
 			sourceTree = "<group>";
@@ -350,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACBFD04C1C7565B000598ED5 /* ViewController.m in Sources */,
+				ACD90E531C7F00CE006BB74A /* FmdatabaseModel.m in Sources */,
 				ACBFD0491C7565B000598ED5 /* AppDelegate.m in Sources */,
 				ACBFD0461C7565B000598ED5 /* main.m in Sources */,
 			);
