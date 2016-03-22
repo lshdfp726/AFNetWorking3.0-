@@ -250,6 +250,7 @@
 				TargetAttributes = {
 					ACBFD0401C7565B000598ED5 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = K74UKU9UG7;
 					};
 					ACBFD0591C7565B000598ED5 = {
 						CreatedOnToolsVersion = 7.2;
@@ -507,9 +508,10 @@
 			baseConfigurationReference = DB3DA4D48FC0F91278B1A4FE /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = cocoapodsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.landinghome.app.cocoapodsTest;
+				PRODUCT_BUNDLE_IDENTIFIER = wandanTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -519,9 +521,10 @@
 			baseConfigurationReference = 0B425B49DC3A08B6D09A0F93 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = cocoapodsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.landinghome.app.cocoapodsTest;
+				PRODUCT_BUNDLE_IDENTIFIER = wandanTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

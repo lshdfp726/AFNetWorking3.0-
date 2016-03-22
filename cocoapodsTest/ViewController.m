@@ -26,7 +26,6 @@
     //上传过程
     [self AFNetWorkingTest];
 //    [self Manory];
-    //上传测试2016-3-21
     //TEST
 
 }
