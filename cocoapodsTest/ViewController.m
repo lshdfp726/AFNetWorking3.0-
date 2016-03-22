@@ -26,6 +26,7 @@
     //上传过程
     [self AFNetWorkingTest];
     //2016322测试
+    //在这里测试远程仓库拉下来的代码
 //    [self Manory];
     //TEST
 
