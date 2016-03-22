@@ -130,6 +130,7 @@
 		ACBFD0431C7565B000598ED5 /* cocoapodsTest */ = {
 			isa = PBXGroup;
 			children = (
+				ACD90E541C7F016A006BB74A /* FMDB */,
 				ACBFD0471C7565B000598ED5 /* AppDelegate.h */,
 				ACBFD0481C7565B000598ED5 /* AppDelegate.m */,
 				ACBFD04A1C7565B000598ED5 /* ViewController.h */,
@@ -139,8 +140,6 @@
 				ACBFD0521C7565B000598ED5 /* LaunchScreen.storyboard */,
 				ACBFD0551C7565B000598ED5 /* Info.plist */,
 				ACBFD0441C7565B000598ED5 /* Supporting Files */,
-				ACD90E511C7F00CE006BB74A /* FmdatabaseModel.h */,
-				ACD90E521C7F00CE006BB74A /* FmdatabaseModel.m */,
 			);
 			path = cocoapodsTest;
 			sourceTree = "<group>";
@@ -170,6 +169,15 @@
 				ACBFD06B1C7565B000598ED5 /* Info.plist */,
 			);
 			path = cocoapodsTestUITests;
+			sourceTree = "<group>";
+		};
+		ACD90E541C7F016A006BB74A /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				ACD90E511C7F00CE006BB74A /* FmdatabaseModel.h */,
+				ACD90E521C7F00CE006BB74A /* FmdatabaseModel.m */,
+			);
+			name = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

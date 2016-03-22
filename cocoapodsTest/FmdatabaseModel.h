@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <FMDB.h>
 @interface FmdatabaseModel : NSObject
+
+
 
 @end
